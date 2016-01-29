@@ -1,0 +1,36 @@
+/* base edits */
+a:hover {
+	color: #d46e50;
+}
+
+/* main navigation menu states */
+.main-nav-menu > ul > li > a:hover {
+	color: #524556;
+	background: #fff;
+	transition: 0.3s;
+}
+
+.main-nav-menu > ul > li > a:active {
+	
+}
+
+.main-nav-menu .active {
+	color: #524556;
+	background: #fff;
+}
+
+/* create profile states */
+.create-profile:hover > a {
+	background: #EC7B59;
+	color: #fff;
+	transition: 0.3s;
+}
+
+/* feature area states */
+.feature-link > a:hover {
+	background: #CE4648; 
+	color: #fff;
+	border-top: 1px dashed #CE4648;
+	border-bottom: 1px dashed #CE4648;
+	transition: 0.3s;
+}
